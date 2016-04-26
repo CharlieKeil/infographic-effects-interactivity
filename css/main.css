@@ -1,0 +1,138 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  background-color: #a7dcf3;
+}
+
+.head-ban {
+  width: 100%;
+  top: 50px;
+  position: relative;
+}
+
+.border {
+  border: 5px dashed white;
+  background-color: #27aae1;
+}
+
+h2 {
+  font-family: "raleway", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-family: "raleway", sans-serif;
+  font-weight: 400;
+}
+
+.big-brain {
+  width: 50%;
+  right: 50%;
+  z-index: 2;
+}
+
+.is-big:hover {
+  animation: b-scale 500ms linear;
+}
+
+@keyframes b-scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.is-clicked:hover {
+  animation: scale 500ms linear;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.is-letter:hover {
+  animation: translateY 1s linear;
+}
+
+@keyframes translateY{
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  75% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.is-brush:hover {
+  animation: rotate 1s linear;
+}
+
+@keyframes rotate{
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  75% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotateY(0);
+  }
+}
+
+.bigbrain {
+  transition: all 2s ease;
+}
+
+.beer-1 {
+  width: 100%;
+  position: relative;
+}
+
+.coffee-1 {
+  width: 100%;
+  position: relative;
+}
