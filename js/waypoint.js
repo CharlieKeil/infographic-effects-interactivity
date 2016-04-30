@@ -5,6 +5,7 @@ var $glass = $('.glass');
 var $cup = $('.cup');
 var $papcup = $('.paper-cup');
 var $beer2 = $('.beer-2');
+var $coffee2 = $('.coffee-2');
 
 $beer3.waypoint(function (direction) {
   if (direction == 'down') {
@@ -21,6 +22,15 @@ $beer2.waypoint(function (direction) {
     $beer2.removeClass('js-beer-2-animate');
   }
 }, { offset: '50%' });
+
+$coffee2.waypoint(function (direction) {
+  if (direction == 'down') {
+  $coffee2.addClass('js-coffee-2-animate');
+  } else {
+    $coffee2.removeClass('js-coffee-2-animate');
+  }
+}, { offset: '50%' });
+
 
 $coffee3.waypoint(function (direction) {
   if (direction == 'down') {
