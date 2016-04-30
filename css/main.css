@@ -164,7 +164,7 @@ p {
   padding: 0 1em;
 }
 
-.beer-3, .coffee-3, .mug, .glass, .cup, .paper-cup{
+.beer-3, .coffee-3, .mug, .glass, .cup, .paper-cup {
   opacity: 0;
   transition: all 200ms ease-in;
 }
@@ -175,15 +175,19 @@ p {
 }
 
 @keyframes jiggle {
+
   0% {
     transform: rotate(0);
   }
+
   33% {
     transform: rotate(15deg);
   }
+
   66% {
     transform: rotate(-15deg);
   }
+
   100% {
     transform: rotate(0);
   }
