@@ -164,7 +164,7 @@ p {
   padding: 0 1em;
 }
 
-.beer-3, .coffee-3, .mug, .glass, .cup, .paper-cup, .beer-2, coffee-2 {
+.beer-3, .coffee-3, .mug, .glass, .cup, .paper-cup, .beer-2, .coffee-2 {
   opacity: 0;
   transition: all 200ms ease-in;
 }
