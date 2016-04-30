@@ -164,12 +164,12 @@ p {
   padding: 0 1em;
 }
 
-.beer-3, .coffee-3, .mug, .glass, .cup, .paper-cup {
+.beer-3, .coffee-3, .mug, .glass, .cup, .paper-cup, .beer-2 {
   opacity: 0;
   transition: all 200ms ease-in;
 }
 
-.js-beer-3-animate, .js-coffee-3-animate, .js-mug-animate, .js-glass-animate, .js-cup-animate, .js-papcup-animate {
+.js-beer-3-animate, .js-beer-2-animate, .js-coffee-3-animate, .js-mug-animate, .js-glass-animate, .js-cup-animate, .js-papcup-animate {
   opacity: 1;
   animation: jiggle 250ms linear;
 }

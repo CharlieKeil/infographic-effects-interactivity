@@ -4,12 +4,21 @@ var $mug = $('.mug');
 var $glass = $('.glass');
 var $cup = $('.cup');
 var $papcup = $('.paper-cup');
+var $beer2 = $('.beer-2');
 
 $beer3.waypoint(function (direction) {
   if (direction == 'down') {
   $beer3.addClass('js-beer-3-animate');
   } else {
     $beer3.removeClass('js-beer-3-animate');
+  }
+}, { offset: '50%' });
+
+$beer2.waypoint(function (direction) {
+  if (direction == 'down') {
+  $beer2.addClass('js-beer-2-animate');
+  } else {
+    $beer2.removeClass('js-beer-2-animate');
   }
 }, { offset: '50%' });
 
