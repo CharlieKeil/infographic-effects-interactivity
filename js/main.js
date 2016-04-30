@@ -4,6 +4,7 @@ var brush = $('.brush');
 var bigbrain = $('.bigbrain');
 var shakebrain = $('.brain2');
 
+
 $('.brain').on('click', function (e) {
   $(this).toggleClass('is-clicked');
 });
